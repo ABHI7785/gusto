@@ -1,0 +1,429 @@
+<!DOCTYPE.html>
+<head>
+   <title>
+   </title>
+   <meta>
+   </meta>
+   <link rel="stylesheet" type="text/css" href="css/abhinand.css">
+   </link>
+   <script rel="javascript" type="text/js" src="js/new.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".special_section").mouseenter(function(){
+    $(".special_one_part1").fadeIn(1000);
+    $(".special_one_part2").fadeIn(2000);
+    $(".special_one_part3").fadeIn(3000);
+  });
+});
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $(".story_section").mouseenter(function(){
+    $(".story_left").animate({left: '0em'});
+  });
+});
+</script> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $(".story_section").mouseenter(function(){
+    $(".story_right").animate({right: '0em'});
+  });
+});
+</script> 
+   <style>
+
+body{overflow-x:hidden;}
+.accordion123 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion123:hover {
+  background-color: #ccc;
+}
+
+.accordion123:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel123 {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.mySlides123 {display: none;}
+.pic123 {vertical-align: middle;    height: 500px;}
+
+/* Slideshow container */
+.slideshow-container123 {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+   <script></script>
+   <noscript>
+   </noscript>
+   <style>
+   
+   .location_place{float:left;width:100%;}
+   </style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div class="wrapper">
+   <div class="menu">
+      <ul class="list">
+         <li>specials</li>
+         <li>about</li>
+         <li>menu</li>
+         <li>chef</li>
+         <li>contact</li>
+      </ul>
+   </div>
+   <div class="hero_section">
+      <h2>Gusto</h2>
+      <p>Reservations: (887) 654-3210</p>
+   </div>
+   <!--hero section ends-->
+   <div class="special_section">
+   <div class="pagecenter">
+      <h3><i class='fas fa-check-double'></i>our specials</h3>
+      <div class="special_one">
+         <div class="special_one_part1" style="display:none;" onclick="window.open('https://www.google.com'); return false;">
+            <h4> <i class="fa fa-check"></i>Lorem ipsum dolor</h4>
+			<p class="planeicon"><i class="fa fa-paper-plane"></i></p>
+            <img src="images/specials/1.jpg"></img>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.</p>
+         </div>
+         <div class="special_one_part2"  style="display:none;" >
+            <h4>Consectetur adipiscing</h4>
+            <img src="images/specials/1.jpg"></img>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.</p>
+         </div>
+         <div class="special_one_part3"  style="display:none;" >
+            <h4>Duis sed dapibus</h4>
+            <img src="images/specials/3.jpg"></img>
+			<button onclick="window.open('https://www.google.com'); return false;"> click here</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.
+         </div>
+      </div>
+	  </div>
+   </div>
+   <!--special ends-->
+   
+   
+   
+   <div class="slider_section" style="width:100%;float:left;">
+   
+   
+<div class="slideshow-container123">
+
+<div class="mySlides123 fade">
+
+  <img class="pic123" src="images/chef.jpg" style="width:100%">
+  <div style="display:none;" class="text">Caption Text</div>
+</div>
+
+<div class="mySlides123 fade">
+  <div style="display:none;" class="numbertext">2 / 3</div>
+  <img class="pic123" src="images/gallery-bg.jpg" style="width:100%">
+  <div style="display:none;" class="text">Caption Two</div>
+</div>
+
+<div class="mySlides123 fade">
+  <div style="display:none;" class="numbertext">3 / 3</div>
+  <img class="pic123" src="images/intro-bg.jpg" style="width:100%">
+  <div style="display:none;" class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center;display:none;">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+   
+   
+   
+   
+   
+   
+   </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <div class="story_section">
+   <h2 style="text-align:center;">story section </h2>
+      <div class="story_left" style="position:absolute;left:-40em;">
+      </div>
+      <div class="story_right" style="position:relative;right:-40em;">
+         <h4>our story</h4>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+         <!--story_section_ends-->
+		 
+		 
+<button class="accordion123">Section 1</button>
+<div class="panel123">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion123">Section 2</button>
+<div class="panel123">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion123">Section 3</button>
+<div class="panel123">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+      </div>
+   </div>
+   
+ <!-- img gallery starts-->
+   <div class="image_gallery">
+      <ul class="img_list">
+         <!--<li><img src="images/gallery/01.jpg"></img></li>-->
+         <li><img src="images/gallery/01.jpg"></img></li>
+         <li><img src="images/gallery/02.jpg"></img></li>
+         <li><img src="images/gallery/03.jpg"></img></li>
+         <li><img src="images/gallery/04.jpg"></img></li>
+      </ul>
+   </div>
+   <div class="chef_section">
+      <div class="chef_left">
+         <h3>
+            Meet Our Chef
+         </h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+      </div>
+      <div class="chef_right">
+         <img class="chef_pic" src="images/chef.jpg"></img>
+      </div>
+   </div>
+   <!-- chef ends--->
+   
+   
+   <div class="location_place">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124386.3790208087!2d80.17080106216252!3d13.030937594907583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52665274dfa1c7%3A0xfe615250ca25e883!2sFITA%20T%20Nagar%20-AWS%20Data%20Science%20Digital%20Marketing%20DevOps%20Java%20Python%20Artificial%20Intelligence%20PHP%20RPA%20Selenium%20Software%20Testing%20Web%20Design%20CCNA%20IELTS%20German%20Training%20in%20Chennai!5e0!3m2!1sen!2sin!4v1627375217643!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   
+   </div>
+   
+   
+   
+   
+   
+   <div class="address_section">
+      <div class="address_part1">
+         <h4>Reservations</h4>
+         <p>Please call</p>
+         <p>(887) 654-3210</p>
+      </div>
+      <div class="address_part2">
+         <h4>Address</h4>
+         <p>4321 California St,</p>
+         <p>San Francisco, CA 12345</p>
+      </div>
+      <div class="address_part3">
+         <h4>Opening Hours</h4>
+         <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
+         <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+      </div>
+   </div>
+   <!--- address ends--->
+   <div class="footer">
+      <div class="footer_left">
+         <p>© 2017 Gusto. All rights reserved. Design by TemplateWire</p>
+      </div>
+      <div class="footer_right">
+         <ul class="social_media">
+            <li><i class="fa fa-facebook-f"></i></li>
+            <li><i class="fa fa-twitter"></i></li>
+            <li><i class="fa fa-youtube"></i></li>
+         </ul>
+      </div>
+   </div>
+   <!--menu_ends-->
+   </div>
+   
+   <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides123");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+var acc = document.getElementsByClassName("accordion123");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel123 = this.nextElementSibling;
+    if (panel123.style.maxHeight) {
+      panel123.style.maxHeight = null;
+    } else {
+      panel123.style.maxHeight = panel123.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>

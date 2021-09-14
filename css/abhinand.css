@@ -1,0 +1,597 @@
+body{margin:0 auto;padding:0 auto;}
+
+.wrapper{float:none;min-width:1140px;padding:0 auto;}
+
+.menu {
+    float: left;
+    width: 100%;
+    background: black;
+    color: white;
+	text-align:center;
+}
+
+<style>
+.accordion123 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion123:hover {
+  background-color: #ccc;
+}
+
+.accordion123:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel123 {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.list li {
+    display: inline;
+    text-transform: capitalize;
+    margin: 0em 2em 0em 2em;
+    font-family: "Open Sans", serif;
+}
+.hero_section {
+    float: left;
+    width: 100%;
+    background: black;
+	color:white;
+    text-align: center;
+    text-transform: capitalize;
+}
+.hero_section h2 {
+    font-family: "Rochester", cursive;
+    font-size: 140px;
+    font-weight: 400;
+}
+
+
+.hero_section p {
+    font-family: "Open Sans", serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.special_section {
+    float: left;
+    width: 100%;
+  
+}
+
+
+.special_section {
+
+    float: left;
+    width: 100%;
+    padding: 3em 0em 2em 0em;
+
+}
+.special_section h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38;text-transform:capitalize;
+    font-weight: 400;
+    text-align: center;
+}
+.special_one {
+    float: left;
+    width: 100%;
+}
+
+.special_one_part3 img ,.special_one_part2 img ,.special_one_part1 img {
+    width: 85%;
+}
+.special_one_part1 {
+    float: left;
+    width: 33.3%;
+	text-align:center;
+	
+}
+.special_one_part2 {
+    float: left;
+    width: 33.3%;
+	text-align:center;
+	
+}
+.special_one_part3 {
+    float: right;
+    width: 33.3%;
+	text-align:center;
+}
+.special_section h3{
+	text-align:center;
+	text-align:capitalize;
+	font-size: 43px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 24px;
+}
+.planeicon {
+    background: blue;
+    color: white;
+    width: 17%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+.planeicon i {
+    font-size: 53px;
+    padding: 0.5em 0em;
+    border-radius: 50%;
+}
+.specials_combined {
+    float: left;
+    width: 100%;
+}
+.special_one_part1 h4,.special_one_part2 h4,.special_one_part3 h4{
+	font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+	
+}
+.special_one_part1 p, .special_one_part2 p, .special_one_part3 p {
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0em 3em;
+}
+	
+.story_section{float:left;width:100%;
+background:#f6f6f6;
+}
+.story_right h4{font-family: "Raleway", sans-serif;
+font-size: 24px;
+font-weight: 400;}
+.story_left {
+    float: left;
+    width: 50%;
+    background-image: url('../images/gallery-bg.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pagecenter {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 85%;
+}
+.story_right p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 12em;
+    line-height: 1.5;
+}
+.story_right {
+    float: right;
+    width: 43%;
+    padding-top: 3em;
+}
+.footer_left {
+    float: left;
+    width: 65%;
+    padding-left: 2em;
+}
+.menu_card_left {
+    float: left;
+    width: 50%;
+   
+}
+.menu_top_group{float:left;width:100%;}
+.menu_card_right {
+    float:right;
+    width: 50%;
+  
+}
+
+.menu_card h3{font-family: "Raleway", sans-serif;
+font-size: 28px;
+font-weight: 400;text-align:center;}
+
+.menu_card_left h4,.menu_card_right h4{font-family: "Raleway", sans-serif;
+font-size: 24px;
+font-weight: 400;text-align:center;}
+
+
+.menu_card {
+    float: left;
+    width: 100%;
+    padding: 3em 0em 4em 0em;
+}
+
+
+
+
+.fooditems_list {
+    float: left;
+    width: 100%;
+}
+
+
+
+
+
+
+.fooditems_name {
+    float: left;
+    width: 80%;
+
+}
+.fooditems_name h5{font-family: "Raleway", sans-serif;
+font-size: 24px;
+font-weight: 400;}
+
+
+
+
+.fooditems_price p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.fooditems_name p{font-size: 16px;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif;}
+
+.fooditems_price {
+    float: right;
+    width: 20%;
+    text-align: center;
+}
+
+
+.page_center {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 85%;
+}
+
+
+
+
+
+
+
+
+
+.footer_right {
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+.image_gallery {
+    float: left;
+    width: 100%;
+}
+
+
+
+.img_list li {
+    display: inline;
+    width: 25%;
+}
+
+.img_list li img{
+   
+    width: 24.5%;
+}
+
+.img_list {
+    padding: 0;
+    margin: 0;
+}
+.chef_section {
+    float: left;
+    width: 100%;
+    padding: 6em 0em 2em 0em;
+}
+
+.chef_left {
+    float: left;
+    width: 35%;
+    padding: 3em 0em 1em 5em;
+}
+
+.chef_right {
+    float: right;
+    width: 50%;
+}
+
+
+.chef_left h3{font-family: "Raleway", sans-serif;
+font-size: 24px;
+font-weight: 400;}
+
+.chef_left p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+.story_section {
+    float: left;
+    width: 100%;
+    background: #f6f6f6;
+}
+
+.chef_pic {
+    width: 80%;
+}
+
+
+.address_section {
+    float: left;
+    width: 100%;
+    background: black;
+    color: #aaa;
+}
+
+.address_part1 {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+.address_part2 {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+.address_part3{
+    float: right;
+    width: 33.3%;
+    text-align: center;
+}
+
+.address_section {
+    float: left;
+    width: 100%;
+    background: black;
+    color: #aaa;
+    padding: 2em 0em 5em 0em;
+}
+
+.address_part1 h4, .address_part2 h4, .address_part3 h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.address_part1 p,.address_part2 p,.address_part3 p{font-size: 16px;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif;}.story_section {
+    float: left;
+    width: 100%;
+    background: #f6f6f6;
+}
+
+.chef_pic {
+    width: 80%;
+}
+
+
+.address_section {
+    float: left;
+    width: 100%;
+    background: black;
+    color: #aaa;
+}
+
+.address_part1 {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+.address_part2 {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+.address_part3{
+    float: right;
+    width: 33.3%;
+    text-align: center;
+}
+
+.address_section {
+    float: left;
+    width: 100%;
+    background: black;
+    color: #aaa;
+    padding: 2em 0em 5em 0em;
+}
+
+.address_part1 h4, .address_part2 h4, .address_part3 h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.address_part1 p,.address_part2 p,.address_part3 p{font-size: 16px;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif;}
+.footer_left {
+    float: left;
+    width: 65%;
+    padding-left: 2em;
+}
+.footer_right {
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+
+.social_media li {
+    display: inline;
+    margin: 0em 1em 0em 1em;
+}
+
+.footer_left p{font-size: 16px;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif;
+}
+.footer {
+    float: left;
+    width: 100%;
+    background: black;
+    color: #aaaaaa;
+	padding:1em 0em 3em 0em;
+}
+
+
+@media(max-width:767px){
+	.wrapper{float:none;min-width:100%;}
+.list {
+    padding: 0;
+}
+
+.story_right {
+    float: left;
+    width: 100%;
+    padding-top: 3em;
+    text-align: center;
+}
+.chef_right {
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+.address_part2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.footer_left p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social_media {
+    padding: 0;
+}
+
+.footer_right {
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+
+.footer_left {
+    float: left;
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+}
+.address_part3 {
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+
+.address_part1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.chef_left {
+    float: left;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+.img_list li img {
+    width: 100%;
+}
+.story_right p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 0;
+    line-height: 1.5;
+}
+.story_left {
+    float: left;
+    width: 100%;
+    background-image: url('../images/gallery-bg.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.special_one_part3 {
+
+    float: right;
+    width: 100%;
+    text-align: center;
+
+}
+.special_one_part2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.special_one_part1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.hero_section p {
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero_section h2 {
+    font-family: "Rochester", cursive;
+    font-size: 100px;
+    font-weight: 400;
+}
+.list li {
+    display: block;
+    text-transform: capitalize;
+    margin: 0em 2em 0em 2em;
+    font-family: "Open Sans", serif;
+}
+
+
+
+
+	}

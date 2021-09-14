@@ -1,0 +1,7 @@
+.wrapper{float:none;min-width:1140px;padding:0 auto;}
+
+
+@media(max-width:1140px){
+	.wrapper{float:none;min-width:100%;}
+	
+	}
